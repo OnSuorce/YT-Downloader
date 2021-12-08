@@ -1,8 +1,6 @@
 
 import requests
 from pytube import YouTube
-from PIL import Image
-import io
 
 def get_thumbnail(url):
     try:
@@ -12,7 +10,6 @@ def get_thumbnail(url):
         with open('thumbnail.jpg', 'wb') as handler:
             handler.write(img_data)
         
-        return "io.getvalue()"
     except:
 
-        return "not a valid url"
+        print("not a valid url yet")
