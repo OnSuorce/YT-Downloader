@@ -127,5 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#multimedia file
 *.mp4
 *.3gpp
+*.jgp
+*.mp3
