@@ -1,5 +1,5 @@
 # YT-Downloader
-GUI application made in Python3 to download YouTube in both mp4 and mp3 format. Many websites that lets users download videos from YouYube have been taken down because of legal issues and now i can't download any video without going through hundreds of ads and pop-ups.
+GUI application made in Python3 to download YouTube in both mp4 and mp3 format. Many websites that lets users download videos from YouTube have been taken down because of legal issues and now i can't download any video without going through hundreds of ads and pop-ups.
 
 ## Dependencies
 1. [Python 3.9](https://www.python.org/)
