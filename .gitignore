@@ -131,5 +131,5 @@ dmypy.json
 #multimedia file
 *.mp4
 *.3gpp
-*.jgp
+*.jpg
 *.mp3

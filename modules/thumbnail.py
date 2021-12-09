@@ -9,7 +9,9 @@ def get_thumbnail(url):
         img_data = requests.get(img_url).content
         with open('thumbnail.jpg', 'wb') as handler:
             handler.write(img_data)
-        
+        return True
     except:
-
+        
         print("not a valid url yet")
+        return False
+        
