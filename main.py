@@ -31,7 +31,7 @@ while True:
             pass 
 
         break
-    print(event)
+    #print(event)
 
     if(event == "-URL INPUT-" and len(values["-URL INPUT-"]) > 24 ): #if user inputs something longer than 24 chars
         
@@ -47,7 +47,7 @@ while True:
 
     if(event == "-DOWNLOAD-"): #if user presses download button
         window['-ERRORS-'].update("")
-        print(values['-FILE TYPE-'])
+        #print(values['-FILE TYPE-'])
         
         if(values['-FILE TYPE-'] == "MP4" and values['-RES-'] != ""): #video
             print(values["-URL INPUT-"])
